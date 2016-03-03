@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">#df2029</item>
+        <item name="colorPrimaryDark">#c62828</item>
+        <item name="colorAccent">#3D5AFE</item>
+    </style>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="headliners_titles">
+        <item>Professional shows</item>
+        <item>Till Deaf Do We Part</item>
+        <item>Glitterati</item>
+        <item>Terpsichore</item>
+        <item>Campus Princess</item>
+        <item>Fraglore</item>
+        <item>Sonic Stampede</item>
+    </string-array>
+
+    <string-array name="paintings_years">
+        <item>1889</item>
+        <item>1888</item>
+        <item>1888</item>
+        <item>1888</item>
+        <item>1890</item>
+        <item>1888</item>
+        <item>1890</item>
+    </string-array>
+
+    <string-array name="paintings_locations">
+        <item>Museum of Modern Art, New York City</item>
+        <item>Kröller-Müller Museum, Otterlo</item>
+        <item>Musée d\'Orsay, Paris</item>
+        <item>National Gallery, London</item>
+        <item>Van Gogh Museum, Amsterdam</item>
+        <item>National Gallery, London</item>
+        <item>Van Gogh Museum, Amsterdam</item>
+    </string-array>
+
+    <array name="headliners_images">
+        <item>@drawable/starry_night</item>
+        <item>@drawable/cafe_terrace</item>
+        <item>@drawable/starry_night_over_the_rhone</item>
+        <item>@drawable/sunflowers</item>
+        <item>@drawable/almond_blossoms</item>
+        <item>@drawable/sunflowers</item>
+        <item>@drawable/almond_blossoms</item>
+    </array>
+
+</resources>
