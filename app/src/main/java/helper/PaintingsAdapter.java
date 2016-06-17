@@ -10,8 +10,8 @@ import android.widget.TextView;
 import com.alexvasilkov.android.commons.adapters.ItemsAdapter;
 import com.alexvasilkov.android.commons.utils.Views;
 import com.bumptech.glide.Glide;
-import com.tech.dota.pearl2k16.Headliners;
-import com.tech.dota.pearl2k16.R;
+import com.tech.dota.pearl2016.Headliners;
+import com.tech.dota.pearl2016.R;
 
 import java.util.Arrays;
 
@@ -44,7 +44,7 @@ public class PaintingsAdapter extends ItemsAdapter<Painting> implements View.OnC
                 .dontTransform()
                 .dontAnimate()
                 .into(vh.image);
-        vh.title.setText(item.getTitle());
+        vh.title.setText("");
     }
 
     @Override

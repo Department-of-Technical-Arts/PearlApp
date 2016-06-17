@@ -3,7 +3,7 @@ package helper;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 
-import com.tech.dota.pearl2k16.R;
+import com.tech.dota.pearl2016.R;
 
 
 public class Painting {

@@ -9,6 +9,7 @@
         <item>Campus Princess</item>
         <item>Fraglore</item>
         <item>Sonic Stampede</item>
+        <item>Food Fest</item>
     </string-array>
 
     <string-array name="paintings_years">
@@ -19,26 +20,29 @@
         <item>1890</item>
         <item>1888</item>
         <item>1890</item>
+        <item>5646</item>
     </string-array>
 
     <string-array name="paintings_locations">
-        <item>Museum of Modern Art, New York City</item>
-        <item>Kröller-Müller Museum, Otterlo</item>
-        <item>Musée d\'Orsay, Paris</item>
-        <item>National Gallery, London</item>
-        <item>Van Gogh Museum, Amsterdam</item>
-        <item>National Gallery, London</item>
-        <item>Van Gogh Museum, Amsterdam</item>
+        <item>Pearl is celebration, Pearl is fun, Pearl is life and, this time, Pearl is evil. Pearl Pro-shows bring out the inner dancer in you. With multiple bands amusing the audience every year and the tradition of foreign bands performing during Pearl continuing this year, you can expect nothing less than hell of a fun time. Keep checking this space for updates on the performances during this Pearl.</item>
+        <item>Because the statement \'Music is life\' is a banality. Another of our Headliner events, Till Deaf Do We Part is Pearl\'s National Semi-Professional Indie Band Competition. Regional rounds were held at Bengaluru, Delhi and Mumbai. Winners from the regionals will battle it out during Pearl 2016 at BITS-Pilani Hyderabad. </item>
+        <item>Beauty and looks do matter. Do you think that you have the charm that woos people? Here\'s your chance to show-off your looks and win prizes for it. Our Headliner event, Glitterati, is THE fashion parade of the city of Pearls. Bring your swagger on the ramp and win the day, this Pearl.Dress up already?</item>
+        <item>If there is anything better than a dancer, it\'s a team of dancers battling it out to outshine each other! Presenting Terpsichore, the group dance competition where the best of college teams across India give it their all to win the big prize! </item>
+        <item>Campus Princess Auditions \n Be the next Miss Universe \n Event Judge: Gail Nicole Da Silva( Femina Miss United Continent 2014) \n Eligibilty Criteria: \n - Between 18-27 years of age \n - Height : 5\'5 and above \n - Nationality : Indian Passport holder \n - Relationship status : Unmarried \n - Dress Code : Black cocktail dress and stilettos \n - Date : 20 March 2016 \n - Venue : BITS Pilani Hyderabad Campus \n Contact: Hridyesh Tewani +91-9000755319</item>
+        <item>GigaByte Presents annual gaming event of BITS Pilani - Hyderabad campus. Spanning over 3 days of non-stop gaming games like Counter Strike 1.6, DOTA, FIFA, and NFS are played, and is one of the largest gaming festivals in India. Fraglore 2015 was a national level Lan-Gaming event conducted during Pearl\'15 - sponsored by Sparkle Computers and SVM mail. Top players and clans from all over India are expected to attend the event.</item>
+        <item>The screeches will set the night on fire and the phenomenal music will rock you like a hurricane with no truce in the battle. The best of music and a rocking dance floor!! The stage is set for a mind-blowing evening of music and dance. The superlative DJs get to prove their antagonism by sending the people into a state of trance. In the multitude of young dancers and the pulsating interplay of laser and motley disco lights, there is a great opportunity to grip the thousands of people treading their feet to enthralling music and turn them groggy! \n Contact: Tushit Thakkar +91-7730972266</item>
+        <item>Food Fest aims to be gathering point, a place where food lovers from all over Hyderabad and other places can come and have a sample of delicacy from around the globe. For the same, branded food stalls will set up at different locations all over the BITS campus with various cuisine types like Italian, Chinese, Indian, Mexican and others on offer. Finally, famous celebrity chefs like Pankaj bhadouria will be also present during Food Fest, to conduct workshops on innovative and interesting cooking techniques.</item>
     </string-array>
 
     <array name="headliners_images">
-        <item>@drawable/starry_night</item>
-        <item>@drawable/cafe_terrace</item>
-        <item>@drawable/starry_night_over_the_rhone</item>
-        <item>@drawable/sunflowers</item>
-        <item>@drawable/almond_blossoms</item>
-        <item>@drawable/sunflowers</item>
-        <item>@drawable/almond_blossoms</item>
+        <item>@drawable/proshows</item>
+        <item>@drawable/tilldeafdowepart</item>
+        <item>@drawable/glitterati</item>
+        <item>@drawable/terpsichore</item>
+        <item>@drawable/missdiva</item>
+        <item>@drawable/fraglore</item>
+        <item>@drawable/sonic</item>
+        <item>@drawable/foodfest</item>
     </array>
 
 </resources>

@@ -22,6 +22,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:src="@drawable/mainevents"/>
+        <bitmap android:src="@drawable/sonic"/>
     </item>
 </selector>

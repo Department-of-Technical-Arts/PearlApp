@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#EC1C24</color>
-    <color name="colorPrimaryDark">#FFDF131E</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="splash_back">#FFC107</color>
+    <color name="splash_back">#F4B63E</color>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#131313</color>
+    <color name="colorAccent">#6a6a6a</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="grey">#e0e0e0</color>
+    <color name="transparent">#00000000</color>
+    <color name="accent">#40C4FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="saffron">#F4B63E</color>
+    <color name="sienna">#EB6460</color>
+    <color name="green">#10b4a5</color>
+    <color name="purple">#7c57e4</color>
+    <color name="pink">#ff4284</color>
+    <color name="orange">#ff8c6a</color>
+    <color name="mainappcolor">#2a3543</color>
+    <color name="alternate_color1">#3f5761</color>
+    <color name="alternate_color2">#415a65</color>
 </resources>
+
+

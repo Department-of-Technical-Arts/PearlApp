@@ -1,9 +1,11 @@
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ListView
+        android:background="@drawable/background"
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +34,7 @@
         <ImageView
             android:id="@+id/details_image"
             android:layout_width="match_parent"
-            android:layout_height="320dp"
+            android:layout_height="250dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             tools:ignore="ContentDescription" />
@@ -60,19 +62,24 @@
             android:layout_marginRight="@dimen/default_margin"
             android:background="#fff" />
 
-        <TextView
-            android:id="@+id/details_text"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/default_margin"
-            android:layout_marginLeft="@dimen/default_margin"
-            android:layout_marginRight="@dimen/default_margin"
-            android:layout_marginTop="8dp"
-            android:lineSpacingExtra="4sp"
-            android:textColor="#eee"
-            android:textSize="14sp" />
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/details_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#eee"
+                android:textSize="14sp" />
+        </ScrollView>
 
     </LinearLayout>
+
 
     <com.alexvasilkov.foldablelayout.UnfoldableView
         android:id="@+id/unfoldable_view"
