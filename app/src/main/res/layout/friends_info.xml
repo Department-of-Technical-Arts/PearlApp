@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Tejeshwar Reddy"
+        style="@style/TextView.Nickname"
+        android:id="@+id/contact_name" />
+
+    <LinearLayout
+        android:layout_below="@+id/contact_name"
+        android:id="@+id/interestsPrimary"
+        style="@style/LinearLayout.Interests">
+
+        <TextView
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Android App Developer"
+            style="@style/TextView.Interest"
+            android:id="@+id/contact_job" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/interestsPrimary"
+        android:id="@+id/interestsSecondary"
+        android:layout_marginTop="5dp"
+        style="@style/LinearLayout.Interests">
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/contact_phone"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/white"
+            android:text="call"
+            style="@style/TextView.Interest" />
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="e-mail"
+                android:textColor="@color/white"
+                style="@style/TextView.Interest" />
+        </LinearLayout>-->
+    </LinearLayout>
+
+</RelativeLayout>

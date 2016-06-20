@@ -1,0 +1,49 @@
+<LinearLayout
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <ScrollView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--<ImageView
+                android:src="@drawable/pearl_logo_black_comp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+            <!-- TODO: Update blank fragment layout -->
+            <!--<ImageView
+                android:src="@drawable/pearlbgs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+            <TextView
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:textSize="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us" />
+
+            <TextView
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:fontFamily="sans-serif"
+                android:textSize="18dp"
+                android:text="Clear your calendar from March 17th to the 20th for a fully immersive cultural experience guaranteed to delight all the senses! Pearl, first inaugurated in 2009, has now established itself as one of the leading cultural festivals in the country, where people from all across converge in a celebration of talent. BITS Pilani Hyderabad Campus prides itself, every year, on hosting some of the most prestigious cultural competitions in India. Among this year's lineup of contests are Till Deaf Do We Part, the gritty battle of the bands, Gliteratti, the fashion showcase , Terpsichore, for college dance troupes , Catharsis, our film festival and Fraglore, the 3-day event dedicated solely to gaming. Pearl also boasts a wide variety of photography, arts, quizzing, theatre, and literary events this year.So join us in yet another edition of the cultural bonanza we know and adore, this year inspired by the theme Live Evil. In March, something wicked this way comes!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
